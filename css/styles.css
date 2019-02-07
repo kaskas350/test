@@ -1,0 +1,260 @@
+header {
+    display: block;
+    border: 2px solid lavenderblush;
+}
+.head {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 10px;
+    margin-left: 25%;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+.logo {
+    margin-left: 15%;
+    position: relative;
+    top: 0;
+
+}
+
+ li {
+     margin-right: 5%;
+    list-style: none;
+    float: left;
+    text-align: center;
+     min-width: 100px;
+    width: auto;
+    border-bottom: 2px solid cornflowerblue;
+    color: brown;
+    padding: 10px 0;
+}
+
+li:hover {
+    border-bottom: 2px solid greenyellow;
+}
+
+
+.blog {
+    margin-top: 10px;
+    height: 200px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    background-color: azure;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo {
+    float: left;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+
+
+}
+.title {
+    border: 1px solid wheat;
+    width: 50%;
+    padding-top: 0px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    background-color: lavenderblush;
+    border-radius: 2%;
+    text-align: center;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.text {
+    width: 50%;
+    height: 100px;
+    border: 1px solid wheat;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: Tahoma;
+    font-style: italic;
+    text-align: center;
+    background-color: lavenderblush;
+    border-radius: 2%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.detail_page {
+    border: 1px solid rosybrown;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    background-color: beige;
+
+}
+
+.detail_title {
+    font-style: italic;
+    text-align: center;
+    color: #2b47ff;
+
+}
+
+.detail_photo {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.detail_text {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.link_register {
+position: absolute;
+    right: 250px;
+    top: 40px;
+}
+
+.pole {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.center_object {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.logout {
+    right: 180px;
+}
+
+textarea {
+    width: 500px;
+    height: 300px;
+    resize: none;
+
+}
+.date{
+float: right;
+}
+
+.user {
+    float: left;
+}
+
+.date:after{
+    float: left;
+    content: "";
+    clear: both;
+}
+
+#admin {
+    position: absolute;
+    top: 20px;
+    left: -300px;
+}
+.uspeh {
+color: green;
+}
+
+label.error{
+    color: red;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.comment{
+    clear: both;
+    text-align: center;
+}
+
+
+.nofloat{
+    clear: both;
+
+}
+
+.nofloat a {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.area-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.comments{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 200px;
+    background-color: wheat;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.comments .author {
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    height: auto;
+    background-color: honeydew;
+    border-radius: 5px;
+
+}
+
+.comments_author{
+    margin-top:5px;
+    width: 90%;
+    background-color: honeydew;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.but1 {
+margin-right: 45%;
+    font-size: 50px;
+    color: darkblue;
+    float: right;
+}
+
+.but1:hover{
+    cursor: pointer;
+}
+
+.but2 {
+margin-left: 45%;
+    font-size: 50px;
+    color: darkblue;
+    float: left;
+}
+
+.but2:hover{
+    cursor: pointer;
+}
+
